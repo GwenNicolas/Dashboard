@@ -1,14 +1,14 @@
+import React from 'react';
 import './App.css';
 import Identification from "./Identification";
+import Page from './Page';
 
 
 function App() {
   return(
-      <div style={{border : "5px solid blue"}}>
-        <h1>Bonjour</h1>
-        <p>Bonjour à TOI qui regarde!</p>
+      <div>
          <Identification />
-          <Identification />
+         <Page />
       </div>
   );
 }
