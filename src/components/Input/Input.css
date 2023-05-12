@@ -1,0 +1,20 @@
+/* Style de base pour les inputs */
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Style pour les labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Style pour les inputs qui ont le focus */
+input:focus {
+    border-color: #0077ff;
+    box-shadow: 0 0 10px rgba(0, 119, 255, 0.2);
+}

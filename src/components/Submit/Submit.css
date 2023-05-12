@@ -1,0 +1,29 @@
+/* Style pour les boutons de soumission */
+button[type="submit"] {
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Style pour les boutons de soumission lorsqu'ils ont le focus */
+button[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 119, 255, 0.2);
+}
+
+/* Style pour les boutons de soumission lorsqu'ils sont désactivés */
+button[type="submit"]:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Style pour les boutons de soumission lorsqu'ils sont en cours de chargement */
+button[type="submit"].loading {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

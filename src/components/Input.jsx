@@ -1,4 +1,4 @@
-import React, { Component} from "react";
+mport React, { Component} from "react";
 
 //composant input
 class Input extends Component {
