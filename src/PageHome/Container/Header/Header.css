@@ -1,0 +1,41 @@
+.header-container {
+    background-color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.header-title {
+    color: cadetblue;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.slider-container {
+    margin-top: 20px;
+}
+
+.login-button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pencil-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .header-title {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}

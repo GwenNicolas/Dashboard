@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.header,
+.news,
+.services,
+.crew,
+.contact {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .header,
+    .news,
+    .services,
+    .crew,
+    .contact,
+    .footer {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+}

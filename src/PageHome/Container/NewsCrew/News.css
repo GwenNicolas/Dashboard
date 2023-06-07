@@ -44,6 +44,7 @@
 @media screen and (max-width: 768px) {
     .news-container {
         height: auto;
+        display: block;
     }
 
     .news-content {
